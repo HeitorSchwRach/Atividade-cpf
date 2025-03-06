@@ -9,7 +9,10 @@
 
 const cpf = [1,3,8,8,0,2,4,6,9,1,2]
 var somatorio = 0
+const cpfstring = cpf.join("")
+const arrays = cpfstring.split("")
+console.log(arrays)
 
 if(cpf.length != 11){
     console.log('Não é um cpf')
-}else if()
+}
